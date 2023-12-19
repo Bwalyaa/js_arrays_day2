@@ -13,9 +13,10 @@ let languages = [
     "Swift"
 ];
 
-let sortierung2 = () => {
+let sortierung2 = (languages) => {
     languages.sort()
     languages.reverse()
     console.log(languages);
 }
 
+sortierung2(languages);
